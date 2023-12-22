@@ -1,0 +1,183 @@
+@media screen and (max-width: 700px){
+    .home2{
+        width: 620px;
+        height: 130vh;
+        left: 0;
+
+        .frame{
+            width: 100%;
+            height: 130vh;
+
+            display: flex;
+            flex-direction: column;
+            left: 0;
+            .group{
+                width: 600px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                left: 0;
+                // display: none;
+            
+
+            }
+            .img{
+                top: 20%;
+                left: 50px;
+                height: 9rem;
+                width: 11rem;
+            }
+            .image{
+                top: 20%;
+                left: 350px;
+                height: 9rem;
+                width: 11rem;
+            }
+            .image-2{
+                top: 50%;
+                left: 50px;
+                height: 9rem;
+                width: 11rem;
+            }
+            .image-3{
+                top: 50%;
+                left: 350px;
+                height: 9rem;
+                width: 11rem;
+            }
+            .image-4{
+                top: 80%;
+                left: 50px;
+                height: 9rem;
+                width: 11rem;
+            }.image-5{
+                top: 80%;
+                left: 350px;
+                height: 9rem;
+                width: 11rem;
+            }
+            .rectangle{
+                display: none;
+            }
+            .text-wrapper{
+                font-size: 50px;
+                top: 0;
+                
+            }
+            .div{
+                top: 5%;
+                left: 35%;
+            }
+
+        }
+    }
+    .home4{
+        height: 80vh;
+        .main{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            p{
+                font-size: 53px;
+                
+            }
+
+            .rect{
+                display: none;
+            }
+            
+
+            img{
+                display: none;
+
+            }
+        }
+        .points{
+            margin-right: 100px;
+            
+            li{
+              font-size: 25px;
+              margin: 20px;
+            }
+          }
+        
+    }
+
+
+    nav{
+        img{
+            height: 53px;
+            width: 133px;
+        }
+        main{
+            font-size: 15px;
+            a{
+                margin: 8px;
+            }
+        }
+    }
+
+    .home3{
+        margin-top: 0;
+        height: 90vh;
+        .heading{
+            
+            h1{
+                font-size: 53px;
+                margin-top: -60px;                
+            }
+
+            
+        }
+        .card{
+            .first{
+                height: 11rem;
+                width: 160px;
+                display: flex;
+                justify-content: center;
+                justify-content: center;
+                margin-left: 25px;
+                margin-right: 25px;
+                
+
+                p{
+                    font-size: 15px;
+                }
+                img{
+                    height: 7rem;
+                    width: 9rem;
+                }
+            }
+        }
+    }
+
+    
+.fot{
+
+img{
+    margin-left: -40px;
+}
+    .cont{
+        margin-right: 0;
+        width: 380px;
+    }
+    .logo2{
+        padding-right: 20px;
+    }
+}
+
+
+.con1{
+    display: block;
+    padding: 5rem;
+    height: 100vh;
+}
+.map{
+    height: 40vh;
+}
+
+}
+
+
+
