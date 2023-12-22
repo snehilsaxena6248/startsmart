@@ -55,7 +55,7 @@ const Contact = () => {
       <label>Phone</label>
       <input type="text" name="phone" required/>
       </div>
-      <br />
+      
       </div>
       <div className="ro">
 <div className="me">

@@ -1,12 +1,12 @@
 @media screen and (max-width: 700px){
     .home2{
         width: 620px;
-        height: 130vh;
+        height: 100vh;
         left: 0;
 
         .frame{
             width: 100%;
-            height: 130vh;
+            height: 100vh;
 
             display: flex;
             flex-direction: column;
@@ -16,7 +16,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                left: 0;
+                left: 35px;
                 // display: none;
             
 
@@ -34,24 +34,24 @@
                 width: 11rem;
             }
             .image-2{
-                top: 50%;
+                top: 40%;
                 left: 50px;
                 height: 9rem;
                 width: 11rem;
             }
             .image-3{
-                top: 50%;
+                top: 40%;
                 left: 350px;
                 height: 9rem;
                 width: 11rem;
             }
             .image-4{
-                top: 80%;
+                top: 60%;
                 left: 50px;
                 height: 9rem;
                 width: 11rem;
             }.image-5{
-                top: 80%;
+                top: 60%;
                 left: 350px;
                 height: 9rem;
                 width: 11rem;
@@ -108,7 +108,8 @@
     nav{
         img{
             height: 53px;
-            width: 133px;
+            width: 123px;
+            margin-left: 50px;
         }
         main{
             font-size: 15px;
@@ -120,7 +121,7 @@
 
     .home3{
         margin-top: 0;
-        height: 90vh;
+        height: 75vh;
         .heading{
             
             h1{
@@ -177,6 +178,10 @@ img{
     height: 40vh;
 }
 
+
+.carousel{
+    height: 467;
+}
 }
 
 

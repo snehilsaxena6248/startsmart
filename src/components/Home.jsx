@@ -1,6 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Link } from "react-router-dom" 
 import img1 from '../assets/1.jpg';
 import img3 from '../assets/3.jpg';
 import img4 from '../assets/2.jpg';
@@ -54,29 +55,42 @@ const Home = () => {
         <div className="heading"><h1>Solutions</h1>
         </div>
         <div className="card">
+        <Link to={"/contact"}>
           <div className="first">
             <img src={vms} />
             <p>VMS</p>
           </div>
+          </Link>
+          <Link to={"/contact"}>
           <div className="first">
             <img src={hotel} />
             <p>Hotel/ Restaurant Automation</p>
-          </div><div className="first">
+          </div>
+          </Link>
+        <Link to={"/contact"}>
+          <div className="first">
             <img src={hauto} />
             <p>Home Automation</p>
             </div>
+            </Link>
             </div>
             <div className="card">
+        <Link to={"/contact"}>
+
           <div className="first">
             <img src={iauto} />
             <p>Industrial Automation</p>
-          </div><div className="first">
+
+       
+          </div></Link> <Link to={"/contact"}><div className="first">
             <img src={scity} />
             <p>Smart City</p>
-          </div><div className="first">
+        
+          </div></Link><Link to={"/contact"}> <div className="first">
             <img src={cp} />
             <p>Customized Products</p>
           </div>
+          </Link>
         </div>
         
       </div>
@@ -102,26 +116,30 @@ const Home = () => {
         <div className="heading"><h1>Services</h1>
         </div>
         <div className="card">
+        <Link to={"/contact"}>
           <div className="first">
             <img src={hd} />
             <p>Hardware Design</p>
-          </div>
+          </div></Link><Link to={"/contact"}>
           <div className="first">
             <img src={pcb} />
             <p>PCB Design</p>
-          </div><div className="first">
+          </div></Link><Link to={"/contact"}><div className="first">
             <img src={hauto} />
             <p>Custom Solution</p>
             </div>
+            </Link>
             </div>
             <div className="card">
+            <Link to={"/contact"}>
           <div className="first">
             <img src={mm} />
             <p>Mass Manufacturing</p>
-          </div><div className="first">
+          </div></Link><Link to={"/contact"}><div className="first">
             <img src={pd} />
             <p>Product Design</p>
           </div>
+          </Link>
         </div>       
       </div>
     </Box>
