@@ -1,6 +1,11 @@
 @media screen and (max-width: 700px){
+    .con{
+        font-size: 12px;
+        display: flex;
+        justify-content: flex-end;
+    }
     .home2{
-        width: 620px;
+        width: 450px;
         height: 100vh;
         left: 0;
 
@@ -12,7 +17,7 @@
             flex-direction: column;
             left: 0;
             .group{
-                width: 600px;
+                width: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -66,7 +71,8 @@
             }
             .div{
                 top: 5%;
-                left: 35%;
+                left: -35%;
+                width: 600px;
             }
 
         }
@@ -80,6 +86,8 @@
             display: flex;
             p{
                 font-size: 53px;
+                display: flex;
+                justify-content: center;
                 
             }
 
@@ -95,10 +103,17 @@
         }
         .points{
             margin-right: 100px;
+            width: 273px;
             
+            ul{
+                margin-left: 40px;
+                width: 273px;
+            }
             li{
               font-size: 25px;
               margin: 20px;
+              width: 273px;
+              
             }
           }
         
@@ -106,15 +121,18 @@
 
 
     nav{
+        justify-content: flex-start;
+        width: 100%;
         img{
-            height: 53px;
-            width: 123px;
-            margin-left: 50px;
+            height: 46px;
+            width: 81px;
+            margin-left: -2px;
         }
         main{
-            font-size: 15px;
+            font-size: 7px;
+            width: 467px;
             a{
-                margin: 8px;
+               width: 34px;
             }
         }
     }
@@ -126,45 +144,60 @@
             
             h1{
                 font-size: 53px;
-                margin-top: -60px;                
+                margin-top: -60px;
+                
+                width: 230px;              
             }
 
             
         }
         .card{
+            a{
+                width: 10rem;
+            }
             .first{
-                height: 11rem;
-                width: 160px;
+                height: 8rem;
+                width: 140px;
                 display: flex;
                 justify-content: center;
                 justify-content: center;
-                margin-left: 25px;
-                margin-right: 25px;
+                margin-left: 0px;
+                margin-right: 0px;
                 
 
                 p{
-                    font-size: 15px;
+                    font-size: 12px;
+                    width: 120px;
                 }
                 img{
-                    height: 7rem;
-                    width: 9rem;
+                    height: 5rem;
+                    width: 8rem;
                 }
+                
             }
         }
     }
 
     
 .fot{
+    .fot1{
+        height: 70px;
+    }
+    height: 10rem;
+    width: 100%;
 
 img{
-    margin-left: -40px;
+    margin-left: 90px;
+    width: 84px;
+    height: 48px;
 }
     .cont{
-        margin-right: 0;
-        width: 380px;
+        margin-right: 200px;
+        width: 500px;
     }
     .logo2{
         padding-right: 20px;
+        margin-left: -70px;
     }
 }
 
@@ -180,8 +213,51 @@ img{
 
 
 .carousel{
-    height: 467;
+    height: 40vh;
+    width: 100%;
+    
 }
+a{
+    width: 8rem;
+}
+.carousel-root{
+    width: 100%;
+    
+}
+*{
+    width: 600px;
+}
+.point{
+    width: 400px;
+    font-size: 10px;
+    display: none;
+    
+}
+.logo{
+    width: 10px;
+}
+.logo{
+    display: none;
+}
+.map{
+    width: 52vh;
+}
+.ro{
+    width: 500px;
+}
+input[type=submit]{
+    width: 500px;
+}
+form{
+    width: 500px;
+}
+.con2{
+    width: 500px;
+}
+.me{
+    width: 222px;
+}
+
 }
 
 
