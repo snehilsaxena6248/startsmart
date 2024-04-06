@@ -1,0 +1,264 @@
+@media screen and (max-width: 700px){
+    .con{
+        font-size: 12px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .home2{
+        width: 450px;
+        height: 100vh;
+        left: 0;
+
+        .frame{
+            width: 100%;
+            height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+            left: 0;
+            .group{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                left: 35px;
+                // display: none;
+            
+
+            }
+            .img{
+                top: 20%;
+                left: 50px;
+                height: 9rem;
+                width: 11rem;
+            }
+            .image{
+                top: 20%;
+                left: 350px;
+                height: 9rem;
+                width: 11rem;
+            }
+            .image-2{
+                top: 40%;
+                left: 50px;
+                height: 9rem;
+                width: 11rem;
+            }
+            .image-3{
+                top: 40%;
+                left: 350px;
+                height: 9rem;
+                width: 11rem;
+            }
+            .image-4{
+                top: 60%;
+                left: 50px;
+                height: 9rem;
+                width: 11rem;
+            }.image-5{
+                top: 60%;
+                left: 350px;
+                height: 9rem;
+                width: 11rem;
+            }
+            .rectangle{
+                display: none;
+            }
+            .text-wrapper{
+                font-size: 50px;
+                top: 0;
+                
+            }
+            .div{
+                top: 5%;
+                left: -35%;
+                width: 600px;
+            }
+
+        }
+    }
+    .home4{
+        height: 80vh;
+        .main{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            p{
+                font-size: 53px;
+                display: flex;
+                justify-content: center;
+                
+            }
+
+            .rect{
+                display: none;
+            }
+            
+
+            img{
+                display: none;
+
+            }
+        }
+        .points{
+            margin-right: 100px;
+            width: 273px;
+            
+            ul{
+                margin-left: 40px;
+                width: 273px;
+            }
+            li{
+              font-size: 25px;
+              margin: 20px;
+              width: 273px;
+              
+            }
+          }
+        
+    }
+
+
+    nav{
+        justify-content: flex-start;
+        width: 100%;
+        img{
+            height: 46px;
+            width: 81px;
+            margin-left: -2px;
+        }
+        main{
+            font-size: 7px;
+            width: 467px;
+            a{
+               width: 34px;
+            }
+        }
+    }
+
+    .home3{
+        margin-top: 0;
+        height: 75vh;
+        .heading{
+            
+            h1{
+                font-size: 53px;
+                margin-top: -60px;
+                
+                width: 230px;              
+            }
+
+            
+        }
+        .card{
+            a{
+                width: 10rem;
+            }
+            .first{
+                height: 8rem;
+                width: 140px;
+                display: flex;
+                justify-content: center;
+                justify-content: center;
+                margin-left: 0px;
+                margin-right: 0px;
+                
+
+                p{
+                    font-size: 12px;
+                    width: 120px;
+                }
+                img{
+                    height: 5rem;
+                    width: 8rem;
+                }
+                
+            }
+        }
+    }
+
+    
+.fot{
+    .fot1{
+        height: 70px;
+    }
+    height: 10rem;
+    width: 100%;
+
+img{
+    margin-left: 90px;
+    width: 84px;
+    height: 48px;
+}
+    .cont{
+        margin-right: 200px;
+        width: 500px;
+    }
+    .logo2{
+        padding-right: 20px;
+        margin-left: -70px;
+    }
+}
+
+
+.con1{
+    display: block;
+    padding: 5rem;
+    height: 100vh;
+}
+.map{
+    height: 40vh;
+}
+
+
+.carousel{
+    height: 40vh;
+    width: 100%;
+    
+}
+a{
+    width: 8rem;
+}
+.carousel-root{
+    width: 100%;
+    
+}
+*{
+    width: 600px;
+}
+.point{
+    width: 400px;
+    font-size: 10px;
+    display: none;
+    
+}
+.logo{
+    width: 10px;
+}
+.logo{
+    display: none;
+}
+.map{
+    width: 52vh;
+}
+.ro{
+    width: 500px;
+}
+input[type=submit]{
+    width: 500px;
+}
+form{
+    width: 500px;
+}
+.con2{
+    width: 500px;
+}
+.me{
+    width: 222px;
+}
+
+}
+
+
+

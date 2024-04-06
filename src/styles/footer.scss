@@ -1,0 +1,63 @@
+.fot{
+    background-color: #191718;
+    height: 24vh;
+    padding: 10px;
+    
+    
+    width: 100%;
+    
+
+    img{
+        height: 8vh;
+        width: 20vh;
+    }
+    .cont{
+        color: white;
+        flex-direction: column;
+    display: flex;
+    margin-right: 5rem;
+    
+    
+        
+    }
+    .fot1{
+        flex-direction: row;
+        display: flex;
+        width: 100%;
+        
+    justify-content: space-between;
+    margin-top: 15px;
+        
+    }
+}
+.point{
+    display: flex;
+    flex-direction: row;
+    
+}
+.fot2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.con{
+    color: white;
+    margin-left: 5rem;
+}
+.rect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    height: 3%;
+    width: 98%;
+}
+.logo{
+    margin-right: 5rem;
+}
+.logo2{
+    margin-left: 6rem;
+}
